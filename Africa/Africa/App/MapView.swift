@@ -13,6 +13,9 @@ struct MapView: View {
     }
 }
 
-#Preview {
-    MapView()
+
+struct MapView_Previews: PreviewProvider {
+    static var previews: some View {
+        MapView().previewDevice("iPhone 11 Pro")
+    }
 }

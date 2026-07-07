@@ -13,6 +13,9 @@ struct GalleryView: View {
     }
 }
 
-#Preview {
-    GalleryView()
+
+struct GalleryView_Previews: PreviewProvider {
+    static var previews: some View {
+        GalleryView().previewDevice("iPhone 11 Pro")
+    }
 }
