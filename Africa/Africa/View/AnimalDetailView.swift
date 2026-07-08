@@ -29,10 +29,18 @@ struct AnimalDetailView: View {
                         .offset(y:24)
                     )
                 // HEADLINE
+                Text(animal.headline)
+                    .font(.headline)
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(.accentColor)
+                    .padding(.horizontal)
                 
                 
                 // GALLERY
-                
+                Group {
+                    HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Wilderness in Pictures")
+                }
+                .padding(.horizontal
                 
                 // FACTS
                 
