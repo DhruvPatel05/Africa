@@ -11,7 +11,7 @@ import MapKit
 struct InsetMapView: View {
     // MARK: - PROPERTIES
     
-    @State private var region = MKCoordinateRegion(center:CLLocationCoordinate2D(latitude: 6.600286, longitude: 16.437759),span:MKCoordinateSpan(latitudeDelta: 60.0, longitudeDelta: 60.0))
+    @State private var region = MKCoordinateRegion(center:CLLocationCoordinate2D(latitude: 6.600286, longitude: 16.4377599),span:MKCoordinateSpan(latitudeDelta: 60.0, longitudeDelta: 60.0))
     
     // MARK: - BODY
     var body: some View {
@@ -33,7 +33,7 @@ struct InsetMapView: View {
                         .cornerRadius(8)
                     )
                 }//: NAVIGATION
-                    .padding(12)
+                .padding(12)
                 , alignment: .topTrailing
             )
             .frame(height: 256)
@@ -47,5 +47,7 @@ struct InsetMapView: View {
 struct InsetmapView_Previews: PreviewProvider {
     static var previews: some View {
         InsetMapView()
+            .previewLayout(.sizeThatFits)
+            .padding()
     }
 }
