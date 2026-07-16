@@ -17,10 +17,18 @@ struct MapView: View {
         var mapRegion = MKCoordinateRegion(center: mapCoordinates, span: mapZoomLevel)
         return mapRegion
         
-    }
+    }()
+    let locations: [NationalParkLoaction] = Bundle.main.decode("locations")
     // MARK: - BODY
     var body: some View {
-        Text("Map")
+        // MARK: - NO BASIC MAP
+       // Map(coordinateRegion: $region)
+        // MARK: - No2 Advance MAP
+        Map(coordinateRegion: $region,annotationItems: locations,annotationContent: {
+            item in
+            // (A) PIN: OLD style always static
+            MapPin(coordinate: item.location,tint:.accentColor)
+        })
     }
 }
 
