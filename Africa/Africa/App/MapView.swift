@@ -18,7 +18,7 @@ struct MapView: View {
         return mapRegion
         
     }()
-    let locations: [NationalParkLoaction] = Bundle.main.decode("locations")
+    let locations: [NationalParkLoaction] = Bundle.main.decode("locations.json")
     // MARK: - BODY
     var body: some View {
         // MARK: - NO BASIC MAP
@@ -27,8 +27,17 @@ struct MapView: View {
         Map(coordinateRegion: $region,annotationItems: locations,annotationContent: {
             item in
             // (A) PIN: OLD style always static
-            MapPin(coordinate: item.location,tint:.accentColor)
-        })
+//            MapPin(coordinate: item.location,tint:.accentColor)
+            // (B) Marker New Style
+//            MapMarker(coordinate: item.location,tint:.accentColor)
+            // (C) Custom Basic Annotation
+            MapAnnotation(coordinate: item.location) {
+                Image("logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 32,height: 32,alignment:.center)
+            }//: Annotation
+            })
     }
 }
 
