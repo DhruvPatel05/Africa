@@ -42,7 +42,12 @@ struct MapView: View {
                 MapAnnotationView(location: item)
             }
             })//: MAP
-        
+        .overlay(
+            Image("compass")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 48,height: 48,alignment:.center)
+        )
     }
 }
 
