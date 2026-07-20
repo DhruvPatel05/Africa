@@ -43,10 +43,24 @@ struct MapView: View {
             }
             })//: MAP
         .overlay(
-            Image("compass")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 48,height: 48,alignment:.center)
+            HStack(alignment: .center, spacing:12) {
+                Image("compass")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 48,height: 48,alignment:.center)
+                VStack(alignment: .leading, spacing:3) {
+                    Divider()
+                }
+            }
+                .padding(.vertical,12)
+                .padding(.horizontal,16)
+                .background(
+                    Color.black
+                        .cornerRadius(8)
+                        .opacity(0.6)
+                )
+                .padding()
+            , alignment:.top
         )
     }
 }
