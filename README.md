@@ -1,3 +1,8 @@
+
+
+
+
+
 # Africa 🦁
 
 Africa is a wildlife exploration iOS application built with SwiftUI. The app allows users to discover African animals through detailed profiles, beautiful images, wildlife videos, interactive maps, and photo galleries.
@@ -37,7 +42,7 @@ Africa is a wildlife exploration iOS application built with SwiftUI. The app all
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/ADD-YOUR-DEMO-VIDEO-LINK-HERE
+https://github.com/user-attachments/assets/e6751527-c83f-4afa-abc0-e9e202b0c82f
 
 ## Technologies Used
 
