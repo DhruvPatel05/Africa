@@ -84,3 +84,108 @@ Africa
 ├── assets
 │   └── screenshots
 └── README.md
+
+### Main Project Folders
+
+- **App** – Contains the main application entry point
+- **Models** – Contains the animal, video, and location data models
+- **Views** – Contains the main screens of the application
+- **Components** – Contains reusable SwiftUI components
+- **Data** – Contains local JSON data
+- **Resources** – Contains videos and additional application resources
+- **Assets** – Contains images, icons, and colours used in the application
+- **AfricaTests** – Contains unit tests
+- **AfricaUITests** – Contains user-interface tests
+
+---
+
+## Requirements
+
+Before running the project, make sure you have:
+
+- macOS
+- Xcode
+- Swift 5 or later
+- iOS Simulator or a connected iPhone
+- iOS 15 or later
+- Git installed on your computer
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+
+Open Terminal and run:
+
+```bash
+git clone https://github.com/DhruvPatel05/Africa.git
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd Africa
+```
+
+### 3. Open the Project in Xcode
+
+Open the `Africa.xcodeproj` file in Xcode.
+
+You can also use the following command:
+
+```bash
+open Africa.xcodeproj
+```
+
+### 4. Select a Device
+
+Select an iPhone simulator or a connected physical iPhone from the Xcode device menu.
+
+### 5. Build and Run the Application
+
+Run the app using:
+
+```text
+Command + R
+```
+
+You can also click the **Run** button in Xcode.
+
+---
+
+## How to Use the App
+
+1. Launch the Africa application.
+2. Browse African animals from the main screen.
+3. Switch between list and grid layouts.
+4. Select an animal to view its details.
+5. Open the Watch tab to view wildlife videos.
+6. Open the Locations tab to explore animals on the map.
+7. Open the Gallery tab to view animal photographs.
+8. Select the Wikipedia link to learn more about an animal.
+
+---
+
+## Repository
+
+**GitHub Repository:**  
+https://github.com/DhruvPatel05/Africa
+
+---
+
+## 👨‍💻 Author
+
+**Dhruv Patel**
+
+**LinkedIn:**  
+https://www.linkedin.com/in/dhruv-patel-csm/
+
+**GitHub:**  
+https://github.com/DhruvPatel05
+
+---
+
+## Support
+
+If you like this project, please consider giving it a star ⭐
