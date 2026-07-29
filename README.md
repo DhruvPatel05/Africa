@@ -18,21 +18,21 @@ Africa is a wildlife exploration iOS application built with SwiftUI. The app all
 ## App Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/01-home-list.png" width="230" alt="Animal list screen" />
-  <img src="assets/screenshots/02-animal-details.png" width="230" alt="Animal details screen" />
-  <img src="assets/screenshots/03-locations-map.png" width="230" alt="Animal locations map" />
+  <img src="Screenshots/01-home-list.png" width="230" alt="Animal list screen" />
+  <img src="Screenshots/02-animal-details.png" width="230" alt="Animal details screen" />
+  <img src="Screenshots/03-locations-map.png" width="230" alt="Animal locations map" />
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/04-video-library.png" width="230" alt="Wildlife video library" />
-  <img src="assets/screenshots/05-gallery.png" width="230" alt="Animal gallery screen" />
-  <img src="assets/screenshots/06-photo-grid.png" width="230" alt="Animal photo grid" />
+  <img src="Screenshots/04-video-library.png" width="230" alt="Wildlife video library" />
+  <img src="Screenshots/05-gallery.png" width="230" alt="Animal gallery screen" />
+  <img src="Screenshots/06-photo-grid.png" width="230" alt="Animal photo grid" />
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/07-video-player.png" width="230" alt="Wildlife video player" />
-  <img src="assets/screenshots/08-giraffe-watch.png" width="230" alt="Giraffe video screen" />
-  <img src="assets/screenshots/09-video-controls.png" width="230" alt="Video playback controls" />
+  <img src="Screenshots/07-video-player.png" width="230" alt="Wildlife video player" />
+  <img src="Screenshots/08-giraffe-watch.png" width="230" alt="Giraffe video screen" />
+  <img src="Screenshots/09-video-controls.png" width="230" alt="Video playback controls" />
 </p>
 
 ## Demo Video
